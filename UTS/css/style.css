@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    background-color: #fff4ff;
+    font-family: "Century Gothic";
+}
+header {
+    height: 90vh;
+    background-image: url('header-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    clip-path: ;
+    background-attachment: fixed;
+}
