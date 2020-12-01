@@ -5,10 +5,48 @@ body {
 }
 header {
     height: 90vh;
-    background-image: url('header-bg.jpg');
+    background-image: url('../images/stuning.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    clip-path: ;
+    clip-path: polygon(100% 0, 100% 90%, 69% 100%, 0 85%, 0 0);
     background-attachment: fixed;
 }
+.judul {
+    text-align: center;
+}
+section {
+    padding: 30px 50px;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0px;
+    overflow: auto;
+    padding: 0px;
+    background-color: #89d4f8;
+    
+}
+h1{
+    margin: 100px 0 40px;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+p {
+    line-height: 2;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #131313;
+  }
