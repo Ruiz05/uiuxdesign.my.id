@@ -1,19 +1,16 @@
 body {
     margin: 0;
-    background-color: #fff4ff;
+    background-color: #ffffff;
     font-family: "Century Gothic";
 }
 header {
     height: 90vh;
-    background-image: url('../images/stuning.jpg');
+    background-image: url('../images/a.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     clip-path: polygon(100% 0, 100% 90%, 69% 100%, 0 85%, 0 0);
     background-attachment: fixed;
-}
-.judul {
-    text-align: center;
 }
 section {
     padding: 30px 50px;
@@ -50,3 +47,50 @@ li a {
   li a:hover {
     background-color: #131313;
   }
+/* #videosList {
+    max-width: 600px; 
+    overflow: hidden;
+} */
+video {
+    height: 330px;
+    width: 600px;
+    margin-bottom: 50px;
+}
+      /* Hide Play button + controls on iOS
+video::-webkit-media-controls {
+    display:none !important;
+} */
+  /* .whitebox{
+      width: 80%;
+      margin: 80px;
+      position: center;
+      background-color: #ffffff;
+      height: auto;
+  }
+  .box1 {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+  .box2 {
+      flex-basis: 50%;
+      min-width: 250px;
+  }
+  .face {
+    width: 83%;
+    margin: auto;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+    width: 80%;
+    margin: 80px;
+    /* position: center; */
+    /* background-color: #ffffff;
+    height: auto;
+    flex-basis: 50%;
+    min-width: 250px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+  } */
